@@ -20,7 +20,7 @@ const Chat = () => {
   const [messages, setMessages] = useState([]);
 
   // const ENDPOINT = "localhost:5000";
-  const ENDPOINT = "https://ncmchatapp-476e4ae2a387.herokuapp.com/";
+  const ENDPOINT = "https://chat-app-server-u69i.onrender.com/";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
